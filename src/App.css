@@ -1,0 +1,177 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../public/fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../public/fonts/poppins-v20-latin-600.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/poppins-v20-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../public/fonts/poppins-v20-latin-700.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/poppins-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/poppins-v20-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../public/fonts/poppins-v20-latin-800.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/poppins-v20-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/poppins-v20-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/poppins-v20-latin-800.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../public/fonts/poppins-v20-latin-900.eot'); /* IE9 Compat Modes */
+  src: url('../public/fonts/poppins-v20-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/poppins-v20-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/poppins-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/poppins-v20-latin-900.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/* =================== Default CSS ================= */
+body
+{
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #666;
+  background: #fff;
+  font-weight: normal;
+} 
+.container-fluid{
+ 
+    padding-left: 85px!important;
+    padding-right:75px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.card
+{
+  color:#C99665!important;
+ font-family: 'Poppins'!important;
+}
+.card-title
+{
+  font-size: 16px!important;
+  height: 35px!important;
+}
+.card-subtitle
+{
+  font-size: 18px!important;
+  color: aqua!important;
+}
+.card-link
+{
+  color:#C99665!important;
+  font-size: 18px!important;
+
+}
+/* ====================== Single Post ====================== */
+.single_area .card
+{
+  color: black!important;
+  background-color: turquoise!important;
+}
+.single_area
+{
+  display: flex;
+  margin-top: 50px!important;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.single_area a
+{
+  align-items: center!important;
+ margin-left: 40%!important;
+ padding: 10px 25px!important;
+}
+.comments
+{
+  padding-top: 100px!important;
+  display: flex!important;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+.comments .email_id
+{
+  font-size: 16px!important;
+  color: springgreen!important;
+}
+
+
+
+
+
+.loader {
+  border: 5px solid #fff; /* Light grey */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: App-logo-spin infinite 20s linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: -50%;
+  right: -50%;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
